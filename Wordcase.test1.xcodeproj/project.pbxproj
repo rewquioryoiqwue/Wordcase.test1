@@ -13,6 +13,7 @@
 		71378AAD23611B0700E5CFB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71378AAB23611B0700E5CFB3 /* Main.storyboard */; };
 		71378AAF23611B0800E5CFB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71378AAE23611B0800E5CFB3 /* Assets.xcassets */; };
 		71378AB223611B0800E5CFB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71378AB023611B0800E5CFB3 /* LaunchScreen.storyboard */; };
+		71378ABA23611C5900E5CFB3 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71378AB923611C5900E5CFB3 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		71378AAE23611B0800E5CFB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71378AB123611B0800E5CFB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71378AB323611B0800E5CFB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71378AB923611C5900E5CFB3 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				71378AA523611B0700E5CFB3 /* AppDelegate.swift */,
 				71378AA723611B0700E5CFB3 /* SceneDelegate.swift */,
 				71378AA923611B0700E5CFB3 /* ViewController.swift */,
+				71378AB923611C5900E5CFB3 /* NextViewController.swift */,
 				71378AAB23611B0700E5CFB3 /* Main.storyboard */,
 				71378AAE23611B0800E5CFB3 /* Assets.xcassets */,
 				71378AB023611B0800E5CFB3 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71378AAA23611B0700E5CFB3 /* ViewController.swift in Sources */,
+				71378ABA23611C5900E5CFB3 /* NextViewController.swift in Sources */,
 				71378AA623611B0700E5CFB3 /* AppDelegate.swift in Sources */,
 				71378AA823611B0700E5CFB3 /* SceneDelegate.swift in Sources */,
 			);
@@ -293,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shuhei.cyf.Wordcase-test1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shuhei.cyf.Wordcase-test1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
